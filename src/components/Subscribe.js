@@ -12,7 +12,9 @@ const Subscribe = () => {
                     <div className="flex flex-wrap justify-between md:flex-row">
                         <form name="subscribe" method="post" data-netlify="true">
                             <input type="hidden" name="form-name" value="subscribe" />
-                            <input name="email" id="email" type="email" required className="p-2 m-1 text-sm text-gray-700 appearance-none focus:outline-none focus:placeholder-transparent" placeholder="Enter your email" aria-label="Enter your email" />
+                            <label>
+                                <input name="email" id="email" type="email" required className="p-2 m-1 text-sm text-gray-700 appearance-none focus:outline-none focus:placeholder-transparent" placeholder="Enter your email" aria-label="Enter your email" />
+                            </label>
                             <Button type="submit">Subscribe</Button>
                         </form>
                     </div>

@@ -58,20 +58,20 @@ const Contact = () => {
                         <div className="w-full mx-2">
                             <label className="block mb-2 text-sm font-medium">
                                 Name
-                                <input className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" type="text" />
+                                <input name="name" id="name" type="text" required className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" type="text" />
                             </label>
                         </div>
                         <div className="w-full mx-2 mt-4 md:mt-0">
                             <label className="block mb-2 text-sm font-medium">
                                 E-mail
-                                <input className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" type="email" />
+                                <input name="email" id="email" type="email" required className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" type="email" />
                             </label>
                         </div>
                     </div>
                     <div className="w-full mt-4">
                         <label className="block mb-2 text-sm font-medium">
                             Message
-                            <textarea className="block w-full h-40 px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring"></textarea>
+                            <textarea name="message" id="message" required className="block w-full h-40 px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring"></textarea>
                         </label>
                     </div>
 

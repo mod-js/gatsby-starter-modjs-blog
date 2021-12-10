@@ -5,9 +5,9 @@ backend:
 media_folder: 'content/assets'
 public_folder: '../assets'
 publish_mode: 'editorial_workflow'
-site_url: https://gatsby-modjs-starter-blog.netlify.app
-display_url: https://gatsby-modjs-starter-blog.netlify.app
-logo_url: https://gatsby-modjs-starter-blog.netlify.app/images/starter-cms-logo.png
+site_url: ""
+display_url: ""
+logo_url: ""
 collections:
   - label: 'Blog'
     label_singular: 'Blog Post'
