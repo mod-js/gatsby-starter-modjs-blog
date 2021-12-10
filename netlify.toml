@@ -1,0 +1,40 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src https: blob:; object-src https:; child-src https: data: blob:; form-action https:; block-all-mixed-content"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer"
+    Feature-Policy = "microphone 'none'; geolocation 'none'"
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+      cache-control = '''
+      public,
+	    max-age=31536000,
+	    immutable'''
+[[headers]]
+  for = "*.js"
+  [headers.values]
+      cache-control = '''
+      public,
+	    max-age=31536000,
+	    immutable'''
+[[headers]]
+  for = "*.css"
+  [headers.values]
+      cache-control = '''
+      public,
+	    max-age=31536000,
+	    immutable'''
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+      cache-control = '''
+      public,
+	    max-age=0,
+	    no-cache,
+	    no-store,
+	    must-revalidate'''

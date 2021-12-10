@@ -1,0 +1,52 @@
+{
+  "name": "gatsby-starter-modjs-blog",
+  "version": "1.0.0",
+  "description": "Gatsby Starter Blog",
+  "author": "ModJS",
+  "license": "0BSD",
+  "keywords": [
+    "Gatsby",
+    "Starter",
+    "ModJS",
+    "Blog",
+    "Netlify",
+    "CMS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mod-js/gatsby-starter-modjs-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/mod-js/modjs-starter-blog/issues"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^4.3.0",
+    "gatsby-plugin-image": "^2.3.0",
+    "gatsby-plugin-manifest": "^4.3.0",
+    "gatsby-plugin-netlify-cms": "^6.3.0",
+    "gatsby-plugin-sharp": "^4.3.0",
+    "gatsby-source-filesystem": "^4.3.0",
+    "gatsby-transformer-remark": "^5.3.0",
+    "gatsby-transformer-sharp": "^4.3.0",
+    "netlify-cms-app": "^2.15.61",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "gatsby-plugin-postcss": "^5.3.0",
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
