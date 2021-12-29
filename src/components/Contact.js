@@ -58,13 +58,13 @@ const Contact = () => {
                         <div className="w-full mx-2">
                             <label className="block mb-2 text-sm font-medium">
                                 Name
-                                <input name="name" id="name" type="text" required className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" type="text" />
+                                <input name="name" id="name" type="text" required className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" />
                             </label>
                         </div>
                         <div className="w-full mx-2 mt-4 md:mt-0">
                             <label className="block mb-2 text-sm font-medium">
                                 E-mail
-                                <input name="email" id="email" type="email" required className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" type="email" />
+                                <input name="email" id="email" type="email" required className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md focus:border-purple-400 focus:outline-none focus:ring" />
                             </label>
                         </div>
                     </div>
